@@ -63,6 +63,12 @@ h1, h2 {
     margin-left: 24px;
 }
 
+footer p {
+    color: var(--bg-color);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
 
 /* mudar cor do scrollbar*/
 body::-webkit-scrollbar {
