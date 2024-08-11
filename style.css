@@ -70,6 +70,16 @@ footer p {
     margin-bottom: 48px;
 }
 
+footer a {
+    text-decoration: none;
+    color: var(--bg-color);
+    transition: color .4s;
+}
+
+footer a:hover {
+   color: #e4d9a3; 
+}
+
 /* mudar cor do scrollbar*/
 body::-webkit-scrollbar {
     width: var(--sb-size);
